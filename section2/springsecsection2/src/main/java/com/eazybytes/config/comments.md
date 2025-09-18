@@ -9,13 +9,12 @@ So if you need to customizes the behaviour of spring security framework you have
 
 18 must be authenticated to access these endpoints
 
-19 then endpoints can be accessed by anyone
+19 these endpoints can be accessed by anyone => make sure you add the error page to it
 
-20 form login
+20 form login        =>         username password form
 
-21 users can send credentials in headers by base 64 encoding
+21 how to disable form login
 
-22
+22 how to disable basic login
 
-  <img width="1341" height="752" alt="image" src="https://github.com/user-attachments/assets/84f5b654-2ce6-4c94-8b4e-3309eda60fe2" />
-
+23 users can send credentials in headers by base 64 encoding it   (used by organization for api invocation not ui)    Basic e68yu234wko729j23p376tyyuiu
